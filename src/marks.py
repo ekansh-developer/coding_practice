@@ -10,11 +10,11 @@ total_aggrigate = phy+chem+math
 print(name, "total in physics, chemistry, maths is",total_aggrigate)
 print()
 per=total_aggrigate/3
-print(name,"your percentage in physics, chemistry, maths is:",per)
+print(name,"your percentage in physics, chemistry and maths is:",per)
 total_percentage= total_marks/5
 print(name,"your total percentage is :",total_percentage)
 print()
-if per>65 and total_percentage>=70:
+if per>65 and total_percentage>=75:
     print(name,"your percentage in physics, chemistry, maths is",per,"and your total percentage is",total_percentage,"you are eligible for science")
     print()
     if bio>=60:
