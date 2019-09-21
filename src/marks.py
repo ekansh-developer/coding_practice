@@ -14,7 +14,7 @@ print(name,"your percentage in physics, chemistry, maths is:",per)
 total_percentage= total_marks/5
 print(name,"your total percentage is :",total_percentage)
 print()
-if per>65 and total_percentage>=70:
+if per>=66 and total_percentage>=70:
     print(name,"your percentage in physics, chemistry, maths is",per,"and your total percentage is",total_percentage,"you are eligible for science")
     print()
     if bio>=60:
