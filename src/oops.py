@@ -1,5 +1,5 @@
 class circle:
-    pi=3.14
+    pi=3.1415
     def __init__(self,radius):
         self.rad=radius
     def cal_area(self):
